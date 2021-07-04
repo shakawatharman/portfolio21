@@ -1,3 +1,50 @@
-h1{
-    color: red;
+body {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+p {
+    color: dimgray;
+}
+
+h1 {
+    font-size: 45px;
+}
+
+.font-color {
+    color: orange;
+}
+
+.first-section {
+    background-image: url(images/top-banner.png);
+    background-repeat: no-repeat;
+    display: flex;
+    margin-bottom: 100px;
+}
+
+.half-width {
+    width: 40%;
+    margin-left: 4%;
+    padding-left: 2%;
+
+}
+
+.half-width img {
+    width: 100%;
+}
+
+a {
+    text-decoration: none;
+}
+
+.adding-button {
+    background-image: linear-gradient(lightsalmon, tomato);
+    border-radius: 5px;
+    padding: 10px 40px;
+    color: white;
+}
+.second-section{
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    display: flex;
 }
