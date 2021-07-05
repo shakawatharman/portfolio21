@@ -43,8 +43,44 @@ a {
     padding: 10px 40px;
     color: white;
 }
-.second-section{
+
+.second-section {
     background-image: url(images/dream-bg.png);
     background-repeat: no-repeat;
+    background-position: right;
     display: flex;
+    margin-bottom: 100px;
+}
+
+.third-section {
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+
+
+}
+
+.experience {
+    display: flex;
+    margin-bottom: 100px;
+}
+
+#full-stack {
+    box-shadow: 5px 7px 30px gray;
+    border-left: 5px solid;
+    border-image: linear-gradient(lightsalmon, tomato);
+    border-image-slice: 1;
+    padding-left: 50px;
+}
+
+#baby-dev {
+    box-shadow: 7px 7px 30px gray;
+    border-left: 5px solid;
+    border-image: linear-gradient(blue, cyan);
+    border-image-slice: 1;
+    padding-left: 50px;
+}
+
+#footer {
+    text-align: center;
 }
